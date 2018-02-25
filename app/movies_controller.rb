@@ -85,7 +85,8 @@ end
 
 def can_destroy_a_single_item
   Movie.create(title: "That One Where the Guy Kicks Another Guy Once")
-  Movie.last.destroy
+  movie = Movie.last
+  movie.destroy
   __
 end
 
