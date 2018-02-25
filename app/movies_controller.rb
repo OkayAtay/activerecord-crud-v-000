@@ -43,7 +43,7 @@ def can_get_size_of_the_database
   movie = Movie.all.size
 end
 
-def can_find_the_first_item_from_the_database_using_id(id)
+def can_find_the_first_item_from_the_database_using_id
   movie = Movie.find_by(id)
 end
 
