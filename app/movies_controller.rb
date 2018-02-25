@@ -12,13 +12,13 @@ def can_be_instantiated_and_then_saved
 end
 
 def can_be_created_with_a_hash_of_attributes(attributes)
-  attributes = {
-      title: "The Sting",
-      release_date: 1973,
-      director: "George Roy Hill",
-      lead: "Paul Newman",
-      in_theaters: false
-  }
+  #attributes = {
+  #    title: "The Sting",
+  #    release_date: 1973,
+  #    director: "George Roy Hill",
+  #    lead: "Paul Newman",
+  #    in_theaters: false
+  #}
   movie = Movie.new(attributes)
 end
 
