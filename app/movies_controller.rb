@@ -45,6 +45,7 @@ end
 
 def can_find_the_first_item_from_the_database_using_id
   movie = Movie.find_or_create_by(id:1)
+  movie.title
 end
 
 def can_find_by_multiple_attributes
